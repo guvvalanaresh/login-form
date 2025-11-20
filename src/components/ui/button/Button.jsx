@@ -11,7 +11,7 @@ const Button = ({
   ...rest
 }) => {
   const base =
-    "inline-flex items-center justify-center rounded-md text-sm font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70";
+    "inline-flex items-center justify-center rounded-md text-sm font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70 cursor-pointer";
 
   const variants = {
     primary:

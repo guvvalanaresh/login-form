@@ -48,7 +48,7 @@ const Input = ({
           <button
             type="button"
             onClick={() => setShowPassword((prev) => !prev)}
-            className="absolute inset-y-0 right-2 flex items-center text-xs text-gray-500 hover:text-gray-700"
+            className="absolute inset-y-0 right-2 flex items-center text-xs text-gray-500 hover:text-gray-700 cursor-pointer"
           >
             {showPassword ? "Hide" : "Show"}
           </button>
@@ -56,7 +56,7 @@ const Input = ({
       </div>
 
       {error && (
-        <p className="mt-1 text-xs text-red-600">{error.message}</p>
+        <p className="mt-1 text-xs text-red-600 font-medium">{error.message}</p>
       )}
     </div>
   );

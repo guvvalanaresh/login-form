@@ -52,7 +52,7 @@ const Signup = () => {
           <Input
             label="Full Name"
             name="name"
-            placeholder="John Doe"
+            placeholder="Naresh"
             register={(name) =>
               register(name, {
                 required: "Name is required",
@@ -117,12 +117,12 @@ const Signup = () => {
           />
 
           {passwordValue && (
-            <p className="mt-[-4px] text-[11px] text-gray-500">
+            <p className="mt-2 text-[11px] text-gray-500 font-medium">
               Password length: {passwordValue.length} characters
             </p>
           )}
 
-          <div className="mt-2 mb-1 flex items-start gap-2">
+          <div className="mt-2 mb-1 flex items-center gap-2">
             <input
               id="terms"
               type="checkbox"
@@ -141,7 +141,7 @@ const Signup = () => {
             </label>
           </div>
           {errors.terms && (
-            <p className="mt-[-4px] text-[11px] text-red-600">
+            <p className="mt-2 text-[11px] text-red-600 font-medium">
               {errors.terms.message}
             </p>
           )}
