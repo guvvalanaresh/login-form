@@ -67,7 +67,7 @@ This is a frontend-only authentication system, with clean UI and professional fo
 
 * OTP auto-focus
 
-#🔐 Custom Authentication Context
+# 🔐 Custom Authentication Context
 ```
 login()
 
