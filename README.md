@@ -59,13 +59,13 @@ This is a frontend-only authentication system, with clean UI and professional fo
 
 # 🧠 React Hook Form for Validation
 
-Fast + optimized forms
+* Fast + optimized forms
 
-Realtime validation messages
+* Realtime validation messages
 
-Password matching logic
+* Password matching logic
 
-OTP auto-focus
+* OTP auto-focus
 
 #🔐 Custom Authentication Context
 ```
@@ -129,63 +129,64 @@ src/
 
 # 🧪 Pages Summary
 
-🔐 Login Page
+## 🔐 Login Page
 
-Email + password
+* Email + password
 
-Password visibility toggle
+* Password visibility toggle
 
-Validation with React Hook Form
+* Validation with React Hook Form
 
-Forgot password link
+* Forgot password link
 
-Optional social logins (UI only)
+* Optional social logins (UI only)
 
-📝 Signup Page
+## 📝 Signup Page
 
-Name, email, password, confirm password
+* Name, email, password, confirm password
 
-Password match validation
+* Password match validation
 
-Password strength indicator (simple)
+* Password strength indicator (simple)
 
-Terms & conditions checkbox
+* Terms & conditions checkbox
 
-🔁 Forgot Password Page
+## 🔁 Forgot Password Page
 
-Email field
+* Email field
 
-Sends a dummy reset link or OTP
+* Sends a dummy reset link or OTP
 
-🔢 OTP Verification Page
+## 🔢 OTP Verification Page
 
-4-box OTP input
+* 4-box OTP input
 
-Auto-focus on next input
+* Auto-focus on next input
 
-Timer + resend OTP
+* Timer + resend OTP
 
-🆕 Reset Password Page
+## 🆕 Reset Password Page
 
-New password
+* New password
 
-Confirm password
+* Confirm password
 
-Match validation
+* Match validation
 
-Redirect to login after success
+* Redirect to login after success
 
-🛡️ Dashboard (Protected)
+## 🛡️ Dashboard (Protected)
 
-Only accessible after login
+* Only accessible after login
 
-Shows user info
+* Shows user info
 
-Simple status cards
+* Simple status cards
 
-Logout button
+* Logout button
 
 # 🚀 Getting Started
+
 1️⃣ Clone the repository
 ```
 git clone https://github.com/your-username/your-repo-name.git
@@ -214,11 +215,11 @@ npm run build
 @import "tailwindcss";
 ```
 
-# All UI styling is done using Tailwind utility classes.
+* All UI styling is done using Tailwind utility classes.
 
-## 🔐 Authentication (Frontend Only)
+# 🔐 Authentication (Frontend Only)
 
-This project does not include backend authentication.
+## This project does not include backend authentication.
 
 >[!It uses a fake auth simulation with]:
 
@@ -236,27 +237,21 @@ This project does not include backend authentication.
 
 ## You can extend this project with:
 
-Real backend APIs
+* Real backend APIs
 
-JWT authentication
+* JWT authentication
 
-OAuth login (Google, GitHub, etc.)
+* OAuth login (Google, GitHub, etc.)
 
-Dark mode
+* Dark mode
 
-Framer Motion animations
-
-Shadcn/UI components
-
-Zod or Yup validations
-
-Full user profile & settings pages
+* Framer Motion animations
 
 # ❤️ Contribution
 
-Pull Requests, Issues, and Suggestions are welcome!
+**Pull Requests, Issues, and Suggestions are welcome!**
 
-Feel free to fork the repo and contribute 🎉
+**Feel free to fork the repo and contribute 🎉**
 
 # 📄 License
 
