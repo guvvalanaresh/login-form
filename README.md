@@ -1,63 +1,63 @@
-🚀 Authentication UI System — React + Vite + Tailwind + React Hook Form
+# 🚀 Authentication UI System — React + Vite + Tailwind + React Hook Form
 
-This project is a fully functional Authentication UI System built using:
+## This project is a fully functional Authentication UI System built using:
 
-React (Vite)
+* React (Vite)
 
-TailwindCSS
+* TailwindCSS
 
-React Hook Form
+* React Hook Form
 
-React Router DOM
+* React Router DOM
 
-Context API
+* Context API
 
-Reusable UI Components
+* Reusable UI Components
 
-Protected Routes
+* Protected Routes
 
 Custom Toast Notifications
 
 This is a frontend-only authentication system, with clean UI and professional folder structure.
 
-🌟 Features
-🔐 Complete Authentication Flow
+# 🌟 Features
+## 🔐 Complete Authentication Flow
 
-Login
+[^1]: Login
 
-Signup
+[^2]: Signup
 
-Forgot Password
+[^3]: Forgot Password
 
-OTP Verification
+[^4]: OTP Verification
 
-Reset Password
+[^5]: Reset Password
 
-Dashboard (Protected)
+[^6]: Dashboard (Protected)
 
-🧩 Reusable UI Components
+## 🧩 Reusable UI Components
 
-Input Component (with password toggle)
+- Input Component (with password toggle)
 
-Button Component
+- Button Component
 
-Card Component
+- Card Component
 
-Form Header
+- Form Header
 
-Toast Notifications
+- Toast Notifications
 
-Protected Route Wrapper
+- Protected Route Wrapper
 
-🎯 Clean UI (Tailwind Minimal Style - Variant A)
+# 🎯 Clean UI (Tailwind Minimal Style - Variant A)
 
-Modern look
+* Modern look
 
-Responsive
+* Responsive
 
-Lightweight styling
+* Lightweight styling
 
-🧠 React Hook Form for Validation
+# 🧠 React Hook Form for Validation
 
 Fast + optimized forms
 
@@ -67,8 +67,8 @@ Password matching logic
 
 OTP auto-focus
 
-🔐 Custom Authentication Context
-
+#🔐 Custom Authentication Context
+```
 login()
 
 logout()
@@ -78,8 +78,10 @@ isAuthenticated
 user data
 
 Dashboard access only after login
+```
 
-📁 Project Structure
+# 📁 Project Structure
+```
 src/
 │
 ├── App.jsx
@@ -113,16 +115,20 @@ src/
 │       └── Dashboard.jsx
 │
 └── index.css
+```
 
-🛠️ Tech Stack
-Technology	Purpose
-React (Vite)	Fast development & build
-TailwindCSS	Modern, responsive styling
-React Hook Form	Form validation + performance
-React Router DOM	Routing + protected routes
-Context API	Global auth management
-Custom Toasts	Feedback notifications
-🧪 Pages Summary
+# 🛠️ Tech Stack
+
+* Technology	Purpose
+* React (Vite)	Fast development & build
+* TailwindCSS	Modern, responsive styling
+* React Hook Form	Form validation + performance
+* React Router DOM	Routing + protected routes
+* Context API	Global auth management
+* Custom Toasts	Feedback notifications
+
+# 🧪 Pages Summary
+
 🔐 Login Page
 
 Email + password
@@ -179,50 +185,56 @@ Simple status cards
 
 Logout button
 
-🚀 Getting Started
+# 🚀 Getting Started
 1️⃣ Clone the repository
+```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 2️⃣ Install dependencies
+```
 npm install
+```
 
 3️⃣ Start development server
+```
 npm run dev
+```
 
 4️⃣ Build for production
+```
 npm run build
+```
 
 🎨 Tailwind Setup
 
-This project uses TailwindCSS with:
+## This project uses TailwindCSS with:
+```
+@import "tailwindcss";
+```
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+# All UI styling is done using Tailwind utility classes.
 
-
-All UI styling is done using Tailwind utility classes.
-
-🔐 Authentication (Frontend Only)
+## 🔐 Authentication (Frontend Only)
 
 This project does not include backend authentication.
 
-It uses a fake auth simulation with:
+>[!It uses a fake auth simulation with]:
 
-Mock login
+[^1]: Mock login
 
-Mock signup
+[^2]: Mock signup
 
-Fake OTP verification
+[^3]: Fake OTP verification
 
-Fake reset password
+[^4]: Fake reset password
 
-Replace with your backend (Node, Firebase, Django, Laravel, Supabase, etc.) whenever needed.
+# Replace with your backend (Node, Firebase, Django, Laravel, Supabase, etc.) whenever needed.
 
-🧹 Future Improvements (Optional)
+# 🧹 Future Improvements (Optional)
 
-You can extend this project with:
+## You can extend this project with:
 
 Real backend APIs
 
@@ -240,14 +252,12 @@ Zod or Yup validations
 
 Full user profile & settings pages
 
-❤️ Contribution
+# ❤️ Contribution
 
 Pull Requests, Issues, and Suggestions are welcome!
 
 Feel free to fork the repo and contribute 🎉
 
-📄 License
+# 📄 License
 
-Licensed under the MIT License.
-
-If you want, I can also create:
+***Licensed under the MIT License.***
